@@ -18,11 +18,16 @@ function Perfil() {
                             <Container>
                                 <div className="perfil-circle">
                                     <div className="perfil-purple">
-                                    <img className="perfil-image" src={PerfilImage} alt=""/>
+                                        <img className="perfil-image" src={PerfilImage} alt="" />
 
                                     </div>
                                 </div>
                                 <h1 className="perfil-name">Carlos Henrique</h1>
+
+                                <div className="perfil-bio">
+                                    CMO Reponsável pela expansão da
+                                    empresa e de nossos serviços
+                                </div>
                             </Container>
 
                         </div>
@@ -31,22 +36,29 @@ function Perfil() {
                             <Container>
                                 <div className="perfil-circle">
                                     <div className="perfil-purple">
-                                    <img className="perfil-image" src={PerfilImage} alt=""/>
+                                        <img className="perfil-image" src={PerfilImage} alt="" />
 
                                     </div>
                                 </div>
                                 <h1 className="perfil-name" >Alexandre Souza</h1>
 
+                                <div className="perfil-bio">
+                                    CTO da empresa responsável pelo setor de inovação e pesquisa e desenvolvimento.
+                                </div>
+
                             </Container>
                         </div>
                         <div className="card-perfil">
                             <Container>
                                 <div className="perfil-circle">
                                     <div className="perfil-purple">
-                                    <img className="perfil-image" src={PerfilImage} alt=""/>
+                                        <img className="perfil-image" src={PerfilImage} alt="" />
                                     </div>
                                 </div>
                                 <h1 className="perfil-name">André Almeida</h1>
+                                <div className="perfil-bio">
+                                    CTO da empresa responsável pelo setor de inovação e pesquisa e desenvolvimento.
+                                </div>
 
                             </Container>
                         </div>
