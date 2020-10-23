@@ -1,10 +1,11 @@
-git 
+ 
 .nav-main{
   display: flex;
   height: 5rem;
   width: 100%;
   background: #000;
   position: fixed;
+  
 }
 .nav-list{
   display: flex;
