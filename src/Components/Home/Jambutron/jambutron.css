@@ -9,12 +9,13 @@ background: #212025;
 }
 
 .jam-titulo1{
+    margin-top: 2rem;
     font-weight: initial;
     font-size: 35px;
-    width: 500px;
+    width: 600px;
 }
 .jamb h1 span{
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 60px;
 }
 .jam-ponto{
@@ -40,7 +41,7 @@ background: #212025;
     margin-top: 0.5rem;
 }
 .jam-button{
-    margin-top: 40px;
+    margin-top: 20px;
     font-size: 16px;
   color: #000;
   font-weight: bolder;
