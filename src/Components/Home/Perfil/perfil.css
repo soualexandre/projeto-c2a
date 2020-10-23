@@ -6,8 +6,8 @@
 
     
     }
-    .perfil-mai{
-        margin-top: 20rem;
+    .perfil-main{
+        margin-top: 10rem;
     }
     .card-perfil{
         flex: 1;
@@ -29,6 +29,10 @@
     .card-perfil-1{
         margin-left:0;
     }
+  .perfil-name{
+      margin-top: 3rem;
+      font-size: 26px;
+  }
 
     .perfil-circle{
         margin: auto auto;
@@ -47,8 +51,17 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 135px;
-        width: 135px;
+        height: 140px;
+        width: 140px;
         border-radius: 100%;
         background: #7F77FE;
     }
+.perfil-image{
+    margin: auto auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 130px;
+    width: 130px;
+    border-radius: 100%;
+}
