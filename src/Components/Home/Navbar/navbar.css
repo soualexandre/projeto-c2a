@@ -1,8 +1,10 @@
+git 
 .nav-main{
   display: flex;
   height: 5rem;
-  background: #44E300079;
-  
+  width: 100%;
+  background: #000;
+  position: fixed;
 }
 .nav-list{
   display: flex;
@@ -11,6 +13,7 @@
   list-style: none;
   margin-top: 0.5rem;
 }
+
 
 .item{
   color: #fff;

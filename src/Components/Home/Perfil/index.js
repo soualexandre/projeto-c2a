@@ -1,7 +1,11 @@
 import React from 'react';
 import './perfil.css';
 import { Container } from '@material-ui/core';
-import PerfilImage from '../../../assets/img/perfil.jpg'
+import Alexandre from '../../../assets/img/perfil.jpg'
+import Carlos from '../../../assets/img/car.png'
+import Andre from '../../../assets/img/ande.jpg'
+
+
 
 function Perfil() {
     return (
@@ -18,7 +22,7 @@ function Perfil() {
                             <Container>
                                 <div className="perfil-circle">
                                     <div className="perfil-purple">
-                                        <img className="perfil-image" src={PerfilImage} alt="" />
+                                        <img className="perfil-image" src={Carlos} alt="" />
 
                                     </div>
                                 </div>
@@ -36,7 +40,7 @@ function Perfil() {
                             <Container>
                                 <div className="perfil-circle">
                                     <div className="perfil-purple">
-                                        <img className="perfil-image" src={PerfilImage} alt="" />
+                                        <img className="perfil-image" src={Alexandre} alt="" />
 
                                     </div>
                                 </div>
@@ -52,7 +56,7 @@ function Perfil() {
                             <Container>
                                 <div className="perfil-circle">
                                     <div className="perfil-purple">
-                                        <img className="perfil-image" src={PerfilImage} alt="" />
+                                        <img className="perfil-image" src={Andre} alt="" />
                                     </div>
                                 </div>
                                 <h1 className="perfil-name">André Almeida</h1>

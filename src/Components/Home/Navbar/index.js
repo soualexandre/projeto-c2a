@@ -8,7 +8,7 @@ import Logo from '../../../assets/img/c2a-logo.png'
 function Navbar() {
   return (
     <div className="nav-main">
-      <Container maxWidth="lg" className="nav-display">
+      <Container maxWidth="lg" className="nav-display" position="fixed">
         <ul className="nav-list">
           <li>
             <a className="nav-logo">
