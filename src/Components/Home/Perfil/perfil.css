@@ -31,6 +31,8 @@
     }
 
     .perfil-circle{
+        margin: auto auto;
+        margin-top: 2rem;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -40,4 +42,13 @@
         background: seagreen;
     }
 
-
+    .perfil-purple{
+        margin: auto auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 135px;
+        width: 135px;
+        border-radius: 100%;
+        background: #7F77FE;
+    }
