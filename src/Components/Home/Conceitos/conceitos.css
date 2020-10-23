@@ -1,0 +1,19 @@
+.conc-title{
+text-align: center;
+}
+.main{
+    margin-top: 10rem;
+}
+.conc-text{
+display: flex;
+    width: 100%;
+    margin-top: 3rem;
+    color: #ffffff;
+    font-size: 26px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    text-align: justify;
+}
+.conc-main{
+    margin-bottom: 4rem;
+}

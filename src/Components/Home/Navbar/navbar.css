@@ -1,0 +1,56 @@
+.nav-main{
+  display: flex;
+  height: 5rem;
+  background: #44E300079;
+  
+}
+.nav-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 0.5rem;
+}
+
+.item{
+  color: #fff;
+  margin-right: 1.5rem;
+}
+
+.item:hover{
+  color: #7F77FE;
+}
+.nav-logo img{
+  display: flex;
+  width: 110px;
+  height: 64px;
+  margin-top: 0.8%;
+}
+.nav-logo img:hover{
+  width: 115px;
+  height: 70px;
+}
+
+.nav-button{
+font-size: 16px;
+  color: #000;
+  font-weight: bolder;
+width: 172px;
+height: 39px;
+border-radius: 5px;
+background: #44E379;
+transition: 300ms;
+}
+.nav-button:hover{
+  width: 178px;
+  height: 42px;
+  color: #7F77FE;
+background: #fff;
+font-size: 18px;
+
+}
+
+
+
+
+

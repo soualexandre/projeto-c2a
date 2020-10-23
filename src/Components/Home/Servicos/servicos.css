@@ -1,0 +1,42 @@
+.servicos-titulo{
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+
+.services{
+    display: flex;
+      align-items: center;
+      justify-content: row
+    
+    }
+    .card-services{
+        flex: 1;
+        margin-top: 60px;
+        height: 330px;
+        left: 191px;
+        top: 503px;
+        text-align: center;
+    background: #121214;
+    }
+    .services1{
+        margin-left:0;
+    }
+
+    .services-img{
+        height: 9rem;
+    }
+    .services-img-2{
+      
+        height: 9rem;
+    }
+    .services-img-3{
+        align-items: center;
+
+    height: 9rem;
+
+    }
+    .card-services h2{
+      margin-top: 50px;
+        font-size: 25px;
+    }

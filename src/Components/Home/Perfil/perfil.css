@@ -1,0 +1,43 @@
+
+.perfil{
+    display: flex;
+      align-items: center;
+      justify-content: row;
+
+    
+    }
+    .perfil-mai{
+        margin-top: 20rem;
+    }
+    .card-perfil{
+        flex: 1;
+        margin-top: 70px;
+        height: 450px;
+        left: 191px;
+        top: 503px;
+        margin-left: 80px;
+     float:center;
+        margin-bottom: 10rem;
+        
+    
+    background: #212025;
+    }
+    .card-perfil{
+        display: flex;
+        text-align: center;
+    }
+    .card-perfil-1{
+        margin-left:0;
+    }
+
+    .perfil-circle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 150px;
+        width: 150px;
+        border-radius: 100%;
+        background: seagreen;
+    }
+
+
