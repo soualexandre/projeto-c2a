@@ -37,7 +37,7 @@ function Jambutron() {
       </section>
 
       <Container maxWidth="md">
-        <h1 className="titulo2" maxWidth="md">É RÁPIDO E FÁCIL NOS CONTATAR</h1>
+        <h1 className="titulo-jam" maxWidth="md">É RÁPIDO E FÁCIL NOS CONTATAR</h1>
         <div className="tutor">
           <div className="card-tutor tutor1">
             <Container>

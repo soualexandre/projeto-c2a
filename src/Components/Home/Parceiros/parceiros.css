@@ -1,0 +1,20 @@
+
+.titulo-parc{
+    margin-bottom: 8rem;
+}
+
+.parceiros-list{
+display: flex;
+justify-content: space-between;
+}
+.parc-name{
+color: #ffffff;
+font-weight: bold;
+font-size: 20px;
+margin-top: 1rem;
+text-align: center;
+}
+
+img{
+    width: 100%;
+}

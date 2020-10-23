@@ -5,6 +5,10 @@ import Servicos from '../../Components/Home/Servicos'
 import Facilidades from '../../Components/Home/facilidades'
 import Conceitos from'../../Components/Home/Conceitos'
 import Perfil from'../../Components/Home/Perfil'
+import Parceiros from'../../Components/Home/Parceiros'
+import Footer from'../../Components/Home/Footer'
+
+
 
 
 
@@ -18,6 +22,8 @@ function home() {
         <Facilidades/>
         <Conceitos/>
         <Perfil/>
+        <Parceiros/>
+        <Footer/>
      </>
     );
   }
