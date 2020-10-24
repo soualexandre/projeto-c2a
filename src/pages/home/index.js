@@ -10,9 +10,6 @@ import Footer from'../../Components/Home/Footer'
 
 
 
-
-
-
 function home() {
     return (
         <>
