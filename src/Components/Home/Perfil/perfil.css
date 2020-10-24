@@ -24,14 +24,13 @@
     }
     .card-perfil{
         display: flex;
-        text-align: center;
     }
     .card-perfil-1{
         margin-left:0;
     }
   .perfil-name{
       margin-top: 3rem;
-      font-size: 22px;
+      font-size: 26px;
   }
 
     .perfil-circle{
@@ -59,15 +58,19 @@
 .perfil-image{
     margin: auto auto;
     display: flex;
-    align-items: center;
-    justify-content: center;
     height: 180px;
     width: 180px;
     border-radius: 100%;
 }
+.perfil-cergo{
+    color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+
+}
 .perfil-bio{
     max-width:200px;
-    margin-top: 2rem;
+    margin-top: 1rem;
     color: #ffffff;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight:lighter;

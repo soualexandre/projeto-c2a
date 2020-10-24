@@ -27,7 +27,7 @@ function Perfil() {
                                     </div>
                                 </div>
                                 <h1 className="perfil-name">Carlos Henrique</h1>
-
+                                <p className="perfil-cergo" > Gerente de projetos</p>
                                 <div className="perfil-bio">
                                     CMO Reponsável pela expansão da
                                     empresa e de nossos serviços
@@ -45,7 +45,7 @@ function Perfil() {
                                     </div>
                                 </div>
                                 <h1 className="perfil-name" >Alexandre Souza</h1>
-
+                                <p className="perfil-cergo" > Gerente de projetos</p>
                                 <div className="perfil-bio">
                                     CTO da empresa responsável pelo setor de inovação e pesquisa e desenvolvimento.
                                 </div>
@@ -60,6 +60,7 @@ function Perfil() {
                                     </div>
                                 </div>
                                 <h1 className="perfil-name">André Almeida</h1>
+                                <p className="perfil-cergo" > Gerente de projetos</p>
                                 <div className="perfil-bio">
                                     CTO da empresa responsável pelo setor de inovação e pesquisa e desenvolvimento.
                                 </div>
