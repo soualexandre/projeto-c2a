@@ -2,7 +2,7 @@ import React from "react";
 import './home.css'
 import { Container } from '@material-ui/core';
 
-import { Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 
@@ -11,23 +11,36 @@ function adminHome() {
         <Container className="home-admin">
             <div className="admin-notifications">
 
-            </div>
+            </div >
+           
+            <ul className="list-text-admin">
+                <li className="chamados-left">
+                    <h1>Chamados</h1>
+                </li>
+                <li>
+                    <button className="chamado-admin"> Abrir chamado</button>
 
-            <button className="chamado-admin"> Abrir chamado</button>
+                </li>
+            </ul>
+             <div className="uls">
             <ul className="list-admin">
                 <li>
                     <div className="card-left"></div>
                 </li>
                 <li>
-                    <div className="card-rigth ri"></div>
+                    <div className="card-rigth "></div>
                 </li>
             </ul>
+            </div>
+
+
+
 
             <div className="historico-admin">
 
             </div>
-        
-        
+
+
         </Container>
     );
 }
