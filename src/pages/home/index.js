@@ -7,11 +7,12 @@ import Conceitos from'../../Components/Home/Conceitos'
 import Perfil from'../../Components/Home/Perfil'
 import Parceiros from'../../Components/Home/Parceiros'
 import Footer from'../../Components/Home/Footer'
-
+import './home.css'
 
 
 function home() {
     return (
+      <div className="style-home">
         <>
         <Navbar />
         <Jambutrom />
@@ -22,6 +23,7 @@ function home() {
         <Parceiros/>
         <Footer/>
      </>
+     </div>
     );
   }
   

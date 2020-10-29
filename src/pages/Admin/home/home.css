@@ -1,0 +1,48 @@
+h1{
+    color: floralwhite;
+}
+.admin-notifications{
+    margin-top: 6rem;
+    width: 100%;
+    height: 5rem;
+    background: #44E379;
+    border-radius: 10px;
+}
+.chamado-admin{
+    margin-top: 4rem;
+    width: 200px;
+    height: 50px;
+    border: 0;
+    color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    background: #6C63FF;
+    border-radius: 5px;
+}
+.list-admin{
+display: inline;
+}
+.card-left{
+    float: left;
+    margin-top: 5rem;
+    height: 20rem;
+    width: 38rem;
+    background: #44E379;
+}
+.card-rigth{
+    float: right;
+    margin-top: 5rem;
+    height: 20rem;
+    width: 38rem;
+    background: #44E379;
+}
+.ri{
+margin-top:60px;
+}
+
+.historico-admin{
+    margin-top: 34rem;
+    height: 800px;
+    background: #44E379 ;
+}

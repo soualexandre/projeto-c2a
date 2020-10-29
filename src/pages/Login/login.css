@@ -1,5 +1,149 @@
-.text{
-    display: flex;
-    justify-content: center;
-    text-align: center;
+body{
+    background: #000;
 }
+    .login-main{
+        margin-top: 8%;
+        height: 100%;
+        width: 100%;
+        background: #000;
+    }
+    
+    .card-login{
+        text-align: center;
+        display: flex;
+        margin: auto;
+        width: 17rem;
+        height: 35rem;
+        left: 191px;
+        top: 503px;
+        background: #000
+    }
+    
+    .login-logo{
+        width: 15rem;
+    }
+
+    .login-input{
+        margin-top: 1.8rem;
+    }
+    .login-input input{
+        height: 2rem;
+        width: 100%;
+        background-color:#212025;
+        border-radius: 5px;
+        border-width: medium;
+        border-style: solid  ;
+        border-color: #44E379;
+        color: #fff;
+        font-size: 18px;
+    }
+    .input-two{
+        margin-top: 5px;
+    }
+    .login-input label{
+        display: flex;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 12px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: lighter;
+    }
+
+    
+.login-button{
+    margin-top: 2rem;
+    font-size: 16px;
+      color: #000;
+      font-weight: bolder;
+    width: 100px;
+    height: 39px;
+    border-radius: 5px;
+    background: #44E379;
+    transition: 300ms;
+    }
+    .login-button:hover{
+        width: 105px;
+      color: #7F77FE;
+    background: #fff;
+    font-size: 18px;
+    
+    }
+
+    .register-button{
+        margin: auto;
+        margin-top: 2.5rem;
+        font-size: 16px;
+          color: #fff;
+          font-weight: bolder;
+        width: 180px;
+        height: 35px;
+        border-radius: 10px;
+        background: #313236;
+        transition: 300ms;
+        border: 0;
+    }
+    .register-button:hover{
+        color: #000;
+        background: #fff;
+
+    }
+    .register-button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .text-social{
+        margin-left: 4px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: normal;
+        font-size: 14px;
+    }
+ 
+
+    .social-button{
+        margin: auto;
+        margin-top: 1rem;
+        font-size: 16px;
+          color: #fff;
+          font-weight: bolder;
+        width: 180px;
+        height: 35px;
+        border-radius: 10px;
+        background: #313236;
+        transition: 300ms;
+        border: 0;
+    }
+    .social-button:hover{
+        color: #000;
+        background: #fff;
+
+    }
+    .social-button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .google-logo{
+        width: 1.5rem;
+        margin-left: -4px;
+    }
+    .text-social{
+        margin-left: 4px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: normal;
+        font-size: 14px;
+    }
+ 
+    .text-voltar{
+color: #fff;
+font-size: 12px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: lighter;
+text-align: center;
+margin-top: 20px;
+    }
+    .icon-voltar{
+        width: 20px;
+        margin-right: 5px;
+    }
