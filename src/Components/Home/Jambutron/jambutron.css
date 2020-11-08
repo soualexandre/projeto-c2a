@@ -81,8 +81,23 @@ display: flex;
 
 background: #212025;
 }
-.tutor1{
+.tutor-card{
     margin-left:0;
+}
+.tutor1:hover{
+    background-color: #424679;
+    border-style: dashed;
+    height: 100%;
+}
+.tutor2:hover{
+    background-color: #424679;
+    border-style: dashed;
+    height: 100%;
+}
+.tutor3:hover{
+    background-color: #424679;
+    border-style: dashed;
+    height: 100%;
 }
 
 .tutor-svg{

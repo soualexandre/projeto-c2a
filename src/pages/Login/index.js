@@ -1,5 +1,6 @@
-import React from "react";
+import React, { Component} from "react";
 import './login.css'
+import {connect} from 'react-redux'
 import { Container } from '@material-ui/core';
 import Logo from '../../assets/img/c2a-logo.png'
 import Google from '../../assets/img/google.png'
@@ -44,6 +45,11 @@ function login() {
         </Container>
     );
 }
+const mapStateToProps = (state) =>{{
 
+}}
+const mapDispatchToProps = dispatch => {{
+
+}}
 
 export default login;

@@ -3,7 +3,6 @@ import './facilidades.css';
 import { Container } from '@material-ui/core';
 
 
-import Logo from '../../../assets/img/c2a-logo.png'
 function Navbar() {
   return (
     <div className="facil-main">

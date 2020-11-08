@@ -2,7 +2,6 @@ import React from "react";
 import './home.css'
 import { Container } from '@material-ui/core';
 
-import { Link } from 'react-router-dom';
 
 
 
