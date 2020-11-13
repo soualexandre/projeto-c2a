@@ -1,10 +1,8 @@
 import React from 'react';
 import './navbar.css';
-import Button from '@material-ui/core/Button';
 import { Container } from '@material-ui/core';
 import { Link} from 'react-router-dom';
 
-import Route from '../../../routes';
 
 import Logo from '../../../assets/img/c2a-logo.png'
 function Navbar() {

@@ -7,8 +7,6 @@ function Parceiros() {
     return (
         <main>
 
-
-
                 <Container maxWidth="md" className="parceiros">
 
                     <h1 className="titulo-parc" >PARCEIROS QUE CONFIAM NO NOSSO TRABALHO</h1>
@@ -19,7 +17,7 @@ function Parceiros() {
                         
                         <div className="card-parc ">
                             <Container>
-                            <img src={Setsoll}/>
+                            <img src={Setsoll} alt="#"/>
                                <p className="parc-name">
                                    SETSOLL
                                </p>
@@ -30,7 +28,18 @@ function Parceiros() {
                         <li>
                         <div className="card-parc">
                             <Container>
-                               <img src={Setsoll}/>
+                               <img src={Setsoll} alt="#"/>
+                               <p className="parc-name" alt="#">
+                                   SETSOLL
+                               </p>
+
+                            </Container>
+                        </div>
+                        </li>
+                        <li>
+                        <div className="card-parc">
+                            <Container>
+                            <img src={Setsoll} alt="#"/>
                                <p className="parc-name">
                                    SETSOLL
                                </p>
@@ -41,18 +50,7 @@ function Parceiros() {
                         <li>
                         <div className="card-parc">
                             <Container>
-                            <img src={Setsoll}/>
-                               <p className="parc-name">
-                                   SETSOLL
-                               </p>
-
-                            </Container>
-                        </div>
-                        </li>
-                        <li>
-                        <div className="card-parc">
-                            <Container>
-                            <img className="parc-img" src={Setsoll}/>
+                            <img className="parc-img" alt="#" src={Setsoll}/>
                                <p className="parc-name">
                                    SETSOLL
                                </p>
