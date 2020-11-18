@@ -1,25 +1,16 @@
-import React, { Suspense, lazy } from 'react';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import ProgressBar from './Components/circularProgress'
+import React , {lazy, Suspense} from 'react';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
-const Login = lazy(() => import('./pages/Login'));
-const homeadmin = lazy(() => import('./pages/Admin/home'));
-const Home = lazy(() => import('./pages/home'));
+const Login = lazy( () => import('./pages/Login/index'))
 
-
-
- function Routes(){
-     return (
-         <Router>
-         <Suspense fallback={<div className="mt-5 pt-5"><ProgressBar/></div>}>
-            <Switch>
-                <Route path="/" exact component={Home} />
-                <Route path="/login"  component={Login} />
-                <Route path="/admin/home" component={homeadmin} />
-            </Switch>
-            </Suspense>
-         </Router>
-     );
- }
+const Routes = () => (
+<Router>
+    <Suspense fallback={<div></div>}>
+        <Switch>
+           <Route path="/" exact component={Login} />
+        </Switch>
+    </Suspense>
+</Router>
+)
 
  export default Routes;

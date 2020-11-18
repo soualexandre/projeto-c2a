@@ -8,7 +8,7 @@ function Jambutron() {
     <main>
 
       <section className="section-jamb" >
-        <div className="jamb" clasName="grid">
+        <div className="jamb" className="grid">
           <Container maxWidth="md">
             <ul className="jamb-list">
               <li>

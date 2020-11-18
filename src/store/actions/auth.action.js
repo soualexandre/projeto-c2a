@@ -1,5 +1,5 @@
-import {http} from '../../config/globalConfig';
-
+import api from '../../config/globalConfig';
+import {changeLoading} from './Loading.action'
 export const actionTypes = {
     GET_TOKEN : 'GET_TOKEN',
     LOGOUT : 'LOGOUT',
@@ -59,23 +59,53 @@ export const setUserToken = (token) => dispatch => {
 }
 
 export const login = (credentials) => {
+  
     return dispatch => {
-        dispatch(loading(true));
-        return http.post('/oauth/token',{
+        dispatch(changeLoading({
+            open: true,
+            msg:'Autenticando...'
+        }))
+        return api.post('/oauth/token',{
+            headers: {
+                accpt: 'application/json',
+              },
             grant_type: 'password',
-            client_id:  '',
-            client_secret: '',
+            client_id:  '2',
+            client_secret: 'Ki3CrWMjD52vjs9yJpvB2loUCN4nBjZEVbqSjJHj',
             username: credentials.username,
-            password: credentials.password
+            password: credentials.password,
+           
         })
+        
         .then(res => {
             console.log(res);
-            dispatch(loading(false));
+              dispatch(changeLoading({
+            open: false,
+            msg:''
+        }))
             if(typeof res !== 'undefined'){
                 dispatch(setUserToken(res.data.access_token))
 
             }
         })
+        .catch(error => {
+            dispatch(changeLoading({
+                open: false,
+                msg:''
+            }));
+            if(error.response){
+                if(error.response.status === 401 || error.response.status === 400){
+                    alert('Senha incorreta')
+                }
+            }else{
+
+            }
+
+        })
     
     }
 }
+
+
+//1: IPlChZMxtA1hDwqyxEZTY6C61TSG9DqgLwrpRYvk
+//2: myQoctohElL4uMy23mANHeCdPP8Ezn4mO9SmorXy
